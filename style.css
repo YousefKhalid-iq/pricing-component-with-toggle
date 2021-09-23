@@ -62,10 +62,11 @@ h1 {
   background: #fff;
   border-radius: 50%;
   transition: 0.1s all ease-in-out;
+  margin-left: 55%;
 }
 
 .toggle-btn.active .inner-circle {
-  margin-left: 55%;
+  margin-left: -0.1%;
 }
 
 .toggle-section p {
@@ -92,7 +93,7 @@ h1 {
   padding-bottom: 8%;
 }
 
-.monthly-basic {
+#monthly-basic {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -100,11 +101,11 @@ h1 {
   padding-bottom: 6%;
 }
 
-.monthly-basic span {
+#monthly-basic span {
   font-size: 2.5rem;
 }
 
-.yearly-basic {
+#yearly-basic {
   display: none;
   text-align: center;
   font-size: 4rem;
@@ -112,7 +113,7 @@ h1 {
   padding-bottom: 6%;
 }
 
-.yearly-basic span {
+#yearly-basic span {
   font-size: 2.5rem;
 }
 
@@ -185,7 +186,7 @@ h1 {
   padding-bottom: 8%;
 }
 
-.monthly-pro {
+#monthly-pro {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -193,19 +194,19 @@ h1 {
   padding-bottom: 6%;
 }
 
-.monthly-pro span {
+#monthly-pro span {
   font-size: 2.5rem;
 }
 
-.yearly-pro {
+#yearly-pro {
   display: none;
   text-align: center;
   font-size: 4rem;
-  color: hsl(232, 13%, 33%);
+  color: hsl(0, 0%, 100%);
   padding-bottom: 6%;
 }
 
-.yearly-pro span {
+#yearly-pro span {
   font-size: 2.5rem;
 }
 
@@ -279,7 +280,7 @@ h1 {
   padding-bottom: 8%;
 }
 
-.monthly-master {
+#monthly-master {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -287,11 +288,11 @@ h1 {
   padding-bottom: 6%;
 }
 
-.monthly-master span {
+#monthly-master span {
   font-size: 2.5rem;
 }
 
-.yearly-master {
+#yearly-master {
   display: none;
   text-align: center;
   font-size: 4rem;
@@ -299,7 +300,7 @@ h1 {
   padding-bottom: 6%;
 }
 
-.yearly-master span {
+#yearly-master span {
   font-size: 2.5rem;
 }
 
@@ -340,10 +341,11 @@ h1 {
 .attribution { 
   font-size: 11px; text-align: center;
   font-weight: 700; 
+  color: hsl(232, 13%, 33%);
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(237, 63%, 64%); 
   text-decoration: none;
 }
 
