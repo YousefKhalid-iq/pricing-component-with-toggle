@@ -54,6 +54,11 @@ h1 {
   border-radius: 30px;
   padding: 4%;
   cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.toggle-btn:hover {
+  opacity: 0.7;
 }
 
 .toggle-btn .inner-circle {
@@ -82,6 +87,7 @@ h1 {
   margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.5rem;
+  box-shadow: 0 20px 32px rgba(0,0,0,0.11);
 }
 
 .header-p-basic {
@@ -162,12 +168,19 @@ h1 {
   width: 90%;
   cursor: pointer;
   background: linear-gradient(120deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
-  border-width: 0;
+  border: 1px solid hsl(237, 63%, 64%);
   color: hsl(0, 0%, 100%);
   border-radius: 0.5rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.purple-btn button:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(237, 63%, 64%);
+  border: 1px solid hsl(234, 14%, 74%);
 }
 
 .professional-section {
@@ -176,6 +189,7 @@ h1 {
   background: linear-gradient(180deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
   padding-top: 5%;
   border-radius: 0.5rem;
+  box-shadow: 0 20px 32px rgba(0,0,0,0.11);
 }
 
 .header-p-pro {
@@ -261,6 +275,13 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.white-btn button:hover {
+  background: transparent;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
 }
 
 .master-section {
@@ -269,6 +290,7 @@ h1 {
   margin: 10% auto 5% auto;
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.5rem;
+  box-shadow: 0 20px 32px rgba(0,0,0,0.11);
 }
 
 .header-p-master {
@@ -338,10 +360,176 @@ h1 {
   border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
 }
 
+@media only screen and (max-width: 375px) {
+  .header-section {
+    width: 100%;
+  }
+
+  #monthly-basic, #monthly-pro, #monthly-master {
+    font-size: 3rem;
+  }
+
+  #monthly-basic span, #monthly-pro span, #monthly-master span {
+    font-size: 1.5rem;
+    padding: 0 1%;
+  }
+
+  #yearly-basic, #yearly-pro, #yearly-master {
+    font-size: 3rem;
+  }
+
+  #yearly-basic span, #yearly-pro span, #yearly-master span {
+    font-size: 1.5rem;
+    padding: 0 1%;
+  }
+
+
+}
+
+@media only screen and (min-width: 450px) {
+  .pricing-cont {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .pricing-cont {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .pricing-cont {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-size: 30% 80%, 30% 30%;
+    background-color: hsl(240, 78%, 98%);
+    background-image: url("images/bg-top.svg"), url("images/bg-bottom.svg");
+    background-position: top right, bottom left;
+    background-repeat: no-repeat, no-repeat;
+  }
+  main {
+    max-width: 90%;
+  }
+
+  .header-section {
+    padding: 8% 0;
+  }
+
+  .pricing-cont {
+    width: 50%;
+  }
+
+  .sections-cont {
+    display: flex;
+    padding-bottom: 5%;
+  }
+
+  .basic-section {
+    width: 80%;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    padding: 0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .professional-section {
+    margin: 0;
+    width: 80%;
+  }
+
+  .master-section {
+    padding: 0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 80%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }
+
+  #monthly-basic, #monthly-pro, #monthly-master {
+    font-size: 3rem;
+  }
+
+  #monthly-basic span, #monthly-pro span, #monthly-master span {
+    font-size: 1.5rem;
+    padding: 0 1%;
+  }
+
+  #yearly-basic, #yearly-pro, #yearly-master {
+    font-size: 3rem;
+  }
+
+  #yearly-basic span, #yearly-pro span, #yearly-master span {
+    font-size: 1.5rem;
+    padding: 0 1%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  main {
+    max-width: 80%;
+  }
+
+  .pricing-cont {
+    width: 40%;
+  }
+
+  #monthly-basic, #monthly-pro, #monthly-master {
+    font-size: 4rem;
+  }
+
+  #monthly-basic span, #monthly-pro span, #monthly-master span {
+    font-size: 2rem;
+    padding: 0 1%;
+  }
+
+  #yearly-basic, #yearly-pro, #yearly-master {
+    font-size: 4rem;
+  }
+
+  #yearly-basic span, #yearly-pro span, #yearly-master span {
+    font-size: 2rem;
+    padding: 0 1%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  main {
+    max-width: 70%;
+  }
+
+  #monthly-basic, #monthly-pro, #monthly-master {
+    font-size: 4.5rem;
+  }
+
+  #monthly-basic span, #monthly-pro span, #monthly-master span {
+    font-size: 2.25rem;
+    padding: 0 1%;
+  }
+
+  #yearly-basic, #yearly-pro, #yearly-master {
+    font-size: 4.5rem;
+  }
+
+  #yearly-basic span, #yearly-pro span, #yearly-master span {
+    font-size: 2.25rem;
+    padding: 0 1%;
+  }
+}
+
 .attribution { 
   font-size: 11px; text-align: center;
   font-weight: 700; 
   color: hsl(232, 13%, 33%);
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .attribution a { 
