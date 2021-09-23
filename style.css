@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: hsl(240, 78%, 98%);
+  background-image: url("images/bg-top.svg");
+  background-position: top right;
+  background-size: 40% 25%;
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header-section {
+  padding-top: 15%;
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 15%;
+}
+
+.pricing-cont {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.toggle-section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.toggle-btn {
+  width: 60px;
+  background: linear-gradient(120deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
+  border-radius: 30px;
+  padding: 4%;
+  cursor: pointer;
+}
+
+.toggle-btn .inner-circle {
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.1s all ease-in-out;
+}
+
+.toggle-btn.active .inner-circle {
+  margin-left: 55%;
+}
+
+.toggle-section p {
+  color: hsl(234, 14%, 74%);
+  font-size: 0.9rem;
+  margin-top: 3%;
+  font-weight: 700;
+}
+
+.basic-section {
+  padding-top: 5%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+}
+
+.header-p-basic {
+  text-align: center;
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  padding-top: 5%;
+  font-size: 1rem;
+  padding-bottom: 8%;
+}
+
+.monthly-basic {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 6%;
+}
+
+.monthly-basic span {
+  font-size: 2.5rem;
+}
+
+.yearly-basic {
+  display: none;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 6%;
+}
+
+.yearly-basic span {
+  font-size: 2.5rem;
+}
+
+.basic-section .storage-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.basic-section .users-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.basic-section .datacap-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.purple-btn {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.purple-btn button {
+  padding: 4% 0;
+  text-transform: uppercase;
+  width: 90%;
+  cursor: pointer;
+  background: linear-gradient(120deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
+  border-width: 0;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+}
+
+.professional-section {
+  width: 90%;
+  margin: 10% auto 0 auto;
+  background: linear-gradient(180deg, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
+  padding-top: 5%;
+  border-radius: 0.5rem;
+}
+
+.header-p-pro {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.monthly-pro {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 6%;
+}
+
+.monthly-pro span {
+  font-size: 2.5rem;
+}
+
+.yearly-pro {
+  display: none;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 6%;
+}
+
+.yearly-pro span {
+  font-size: 2.5rem;
+}
+
+.professional-section .storage-p {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 0.01rem solid hsla(0, 0%, 100%, 0.5);
+  border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
+}
+
+.professional-section .users-p {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
+}
+
+.professional-section .datacap-p {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
+}
+
+.white-btn {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.white-btn button {
+  padding: 4% 0;
+  text-transform: uppercase;
+  width: 90%;
+  cursor: pointer;
+  background: hsl(0, 0%, 100%);
+  border-width: 0;
+  color: hsl(237, 63%, 64%);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+}
+
+.master-section {
+  padding-top: 5%;
+  width: 90%;
+  margin: 10% auto 5% auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+}
+
+.header-p-master {
+  text-align: center;
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  padding-top: 5%;
+  font-size: 1rem;
+  padding-bottom: 8%;
+}
+
+.monthly-master {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 6%;
+}
+
+.monthly-master span {
+  font-size: 2.5rem;
+}
+
+.yearly-master {
+  display: none;
+  text-align: center;
+  font-size: 4rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 6%;
+}
+
+.yearly-master span {
+  font-size: 2.5rem;
+}
+
+.master-section .storage-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.master-section .users-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.master-section .datacap-p {
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
+}
+
+.attribution { 
+  font-size: 11px; text-align: center;
+  font-weight: 700; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
