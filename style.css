@@ -90,7 +90,7 @@ h1 {
   box-shadow: 0 20px 32px rgba(0,0,0,0.11);
 }
 
-.header-p-basic {
+.header-p-basic, .header-p-master {
   text-align: center;
   color: hsl(233, 13%, 49%);
   font-weight: 700;
@@ -99,7 +99,7 @@ h1 {
   padding-bottom: 8%;
 }
 
-#monthly-basic {
+#monthly-basic, #yearly-basic {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -107,23 +107,11 @@ h1 {
   padding-bottom: 6%;
 }
 
-#monthly-basic span {
+#monthly-basic span, #yearly-basic span {
   font-size: 2.5rem;
 }
 
-#yearly-basic {
-  display: none;
-  text-align: center;
-  font-size: 4rem;
-  color: hsl(232, 13%, 33%);
-  padding-bottom: 6%;
-}
-
-#yearly-basic span {
-  font-size: 2.5rem;
-}
-
-.basic-section .storage-p {
+.basic-section .storage-p, .basic-section .users-p, .basic-section .datacap-p, .master-section .storage-p, .master-section .users-p, .master-section .datacap-p {
   color: hsl(233, 13%, 49%);
   font-weight: 700;
   font-size: 0.9rem;
@@ -132,28 +120,6 @@ h1 {
   width: 90%;
   margin: 0 auto;
   border-top: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-}
-
-.basic-section .users-p {
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-}
-
-.basic-section .datacap-p {
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
   border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
 }
 
@@ -200,7 +166,7 @@ h1 {
   padding-bottom: 8%;
 }
 
-#monthly-pro {
+#monthly-pro, #yearly-pro {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -208,23 +174,11 @@ h1 {
   padding-bottom: 6%;
 }
 
-#monthly-pro span {
+#monthly-pro span, #yearly-pro span {
   font-size: 2.5rem;
 }
 
-#yearly-pro {
-  display: none;
-  text-align: center;
-  font-size: 4rem;
-  color: hsl(0, 0%, 100%);
-  padding-bottom: 6%;
-}
-
-#yearly-pro span {
-  font-size: 2.5rem;
-}
-
-.professional-section .storage-p {
+.professional-section .storage-p, .professional-section .users-p, .professional-section .datacap-p {
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
@@ -233,28 +187,6 @@ h1 {
   width: 90%;
   margin: 0 auto;
   border-top: 0.01rem solid hsla(0, 0%, 100%, 0.5);
-  border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
-}
-
-.professional-section .users-p {
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
-}
-
-.professional-section .datacap-p {
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
   border-bottom: 0.01rem solid hsla(0, 0%, 100%, 0.5);
 }
 
@@ -294,15 +226,10 @@ h1 {
 }
 
 .header-p-master {
-  text-align: center;
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  padding-top: 5%;
-  font-size: 1rem;
-  padding-bottom: 8%;
+  
 }
 
-#monthly-master {
+#monthly-master, #yearly-master {
   display: block;
   text-align: center;
   font-size: 4rem;
@@ -310,54 +237,8 @@ h1 {
   padding-bottom: 6%;
 }
 
-#monthly-master span {
+#monthly-master span, #yearly-master span {
   font-size: 2.5rem;
-}
-
-#yearly-master {
-  display: none;
-  text-align: center;
-  font-size: 4rem;
-  color: hsl(232, 13%, 33%);
-  padding-bottom: 6%;
-}
-
-#yearly-master span {
-  font-size: 2.5rem;
-}
-
-.master-section .storage-p {
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
-  border-top: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-}
-
-.master-section .users-p {
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
-}
-
-.master-section .datacap-p {
-  color: hsl(233, 13%, 49%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  text-align: center;
-  padding: 5% 0;
-  width: 90%;
-  margin: 0 auto;
-  border-bottom: 0.01rem solid hsla(234, 14%, 74%, 0.5);
 }
 
 @media only screen and (max-width: 375px) {
@@ -382,8 +263,6 @@ h1 {
     font-size: 1.5rem;
     padding: 0 1%;
   }
-
-
 }
 
 @media only screen and (min-width: 450px) {
@@ -405,7 +284,6 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-
   body {
     background-size: 30% 80%, 30% 30%;
     background-color: hsl(240, 78%, 98%);
@@ -413,6 +291,7 @@ h1 {
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
   }
+
   main {
     max-width: 90%;
   }
