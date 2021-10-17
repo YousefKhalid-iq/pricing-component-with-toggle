@@ -7,11 +7,11 @@ function  btnToggle() {
 		let y = document.getElementById("monthly-basic");
 
 		if (x.style.display === "block"){
-			x.style.display = "none";
+		        x.style.display = "none";
 			y.style.display = "block";
 		} else {
-				x.style.display = "block";
-				y.style.display = "none";
+			x.style.display = "block";
+			y.style.display = "none";
 		}
 	}
 
@@ -23,8 +23,8 @@ function  btnToggle() {
 			x.style.display = "none";
 			y.style.display = "block";
 		} else {
-				x.style.display = "block";
-				y.style.display = "none";
+			x.style.display = "block";
+			y.style.display = "none";
 		}
 	}
 
@@ -36,8 +36,8 @@ function  btnToggle() {
 			x.style.display = "none";
 			y.style.display = "block";
 		} else {
-				x.style.display = "block";
-				y.style.display = "none";
+			x.style.display = "block";
+			y.style.display = "none";
 		}
 	}
 	toggleBasic();
